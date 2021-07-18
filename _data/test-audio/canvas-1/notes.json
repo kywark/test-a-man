@@ -21,7 +21,7 @@
         "source": "https://kywark.github.io/test-a-man/test-audio/canvas-1/canvas",
         "selector": {
           "type": "RangeSelector",
-          "t": "0:01,0:03"
+          "t": "00:01,00:03"
         }
       }
     }
