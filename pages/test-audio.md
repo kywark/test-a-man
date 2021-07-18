@@ -7,7 +7,7 @@ external_manifest_url:
 ---
 <!-- Add an essay or interpretive material below this line,
 using HTML or markdown.  Do not modify this file above this line -->
-## I Know a Man</br>
+## I Know a Man
 <em>by Robert Creeley</em>
 
 As I sd to my  
