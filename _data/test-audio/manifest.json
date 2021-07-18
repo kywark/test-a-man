@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/test-a-man/test-audio/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Test Audio" ] },
+    "homepage": [
+      {
+        "id": "https://www.writing.upenn.edu/pennsound/x/Creeley.php",
+        "type": "Text",
+        "label": { "en": [ "Test Audio" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://www.writing.upenn.edu/pennsound/",
+        "type": "Agent",
+        "label": { "en": [ "PennSound" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/test-a-man/test-audio/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 28.0,
+        "items": [
+          {
+            "id": "https://kywark.github.io/test-a-man/test-audio/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/test-a-man/test-audio/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/pennsound/authors/Creeley/SFSU_5-20-56/Creeley-Robert_24_I-Know-a-Man_SFSU_5-20-56.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 28.0
+                },
+                "target": "https://kywark.github.io/test-a-man/test-audio/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
