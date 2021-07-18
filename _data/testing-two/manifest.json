@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/test-a-man/testing-two/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Testing two" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "Testing two" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/test-a-man/testing-two/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 111.0,
+        "items": [
+          {
+            "id": "https://kywark.github.io/test-a-man/testing-two/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/test-a-man/testing-two/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/pennsound/authors/Bergvall/Studio-111/Bergvall-Caroline_More-Pets_02_UPenn_4-6-05.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 111.0
+                },
+                "target": "https://kywark.github.io/test-a-man/testing-two/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
