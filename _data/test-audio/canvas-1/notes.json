@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://kywark.github.io/test-a-man/test-audio/canvas-1/canvas/notes.json",
+  "type": "AnnotationPage",
+  "label": "Notes",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/test-a-man/test-audio/canvas-1/canvas/notes-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Intro",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/test-a-man/test-audio/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0:01,0:03"
+        }
+      }
+    }
+  ]
+}
