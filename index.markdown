@@ -4,4 +4,4 @@
 
 layout: home
 ---
-This is where introductory materials will go when you add them for the whole project. It's the first introductory materials link when you click your project! 
+This is where introductory materials will go when you add them for <strong>the whole project.</strong> It's the first introductory materials link when you click your project! 
